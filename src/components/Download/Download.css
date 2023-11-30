@@ -1,0 +1,12 @@
+.download-cv {
+  position: absolute;
+  bottom: 5vw;
+  left: 5vw;
+  width: 30ch;
+  max-width: 40%;
+  font-size: 16px;
+  font-family: "Fira Mono", monospace;
+  & a {
+    cursor: pointer;
+  }
+}
