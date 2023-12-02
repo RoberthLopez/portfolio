@@ -1,10 +1,10 @@
 import "./PortfolioCards.css";
-const dummy = [
-  {
-    title: "",
-    image: "",
-  },
-];
+// const dummy = [
+//   {
+//     title: "",
+//     image: "",
+//   },
+// ];
 
 export default function PortfolioCards() {
   return (
