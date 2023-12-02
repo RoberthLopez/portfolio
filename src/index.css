@@ -9,9 +9,11 @@ body,
 
 body {
   background: #ffd863;
+  font-family: "Fira Mono", monospace;
+  color: #121212;
 }
 
 a {
-  color: black;
+  color: #0a0a0a;
   text-decoration: none;
 }

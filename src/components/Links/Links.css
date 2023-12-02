@@ -2,12 +2,15 @@
   position: absolute;
   bottom: 5vw;
   right: 5vw;
-  width: 30ch;
-  max-width: 40%;
+  max-width: 25%;
   font-size: 16px;
   font-family: "Fira Mono", monospace;
   text-align: right;
   & a {
     cursor: pointer;
+  }
+  & p {
+    height: 32px;
+    width: 80px;
   }
 }

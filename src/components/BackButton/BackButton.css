@@ -1,0 +1,13 @@
+.back-button {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  width: 30ch;
+  max-width: 40%;
+  font-size: 16px;
+  font-family: "Fira Mono", monospace;
+  cursor: pointer;
+  /* & a {
+        cursor: pointer;
+      } */
+}

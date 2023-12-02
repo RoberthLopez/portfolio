@@ -11,11 +11,9 @@ export default function BackgroundCanvas({
 }) {
   return (
     <Canvas
-      // style={{ height: "100vh" }}
-      // gl={{ alpha: false }}}
       dpr={[1, 1.5]}
       gl={{ antialias: false }}
-      camera={{ near: 0.01, far: depth + 15, fov: 30 }}
+      camera={{ near: 0.01, far: depth + 15, fov: 30, position: [0, 0, 5] }}
     >
       <color attach="background" args={["#ffbf40"]} />
       {/* <ambientLight intensity={1} /> */}
